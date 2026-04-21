@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gifts4U | Gifts</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>🎁 Gifts4U</h1>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="gifts.html">Gifts</a>
+    <a href="delivery.html">Delivery</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Our Christmas Gifts 🎄</h2>
+
+  <label for="giftSelect">Select a gift:</label>
+  <select id="giftSelect" aria-label="Gift selection">
+    <option value="15">Chocolate Box – $15</option>
+    <option value="10">Sweet Hamper – $10</option>
+    <option value="20">Handmade Craft – $20</option>
+    <option value="8">Christmas Poster – $8</option>
+  </select>
+
+  <p>Total Price: <strong>$<span id="price">15</span></strong></p>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Gifts4U</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
