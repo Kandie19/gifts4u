@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gifts4U | Delivery</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>🎁 Gifts4U</h1>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="gifts.html">Gifts</a>
+    <a href="delivery.html">Delivery</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Delivery Request Form</h2>
+
+  <form id="deliveryForm" aria-label="Delivery request form">
+    
+    <label for="name">Full Name</label>
+    <input type="text" id="name" required />
+
+    <label for="address">Delivery Address</label>
+    <textarea id="address" required></textarea>
+
+    <label for="date">Delivery Date</label>
+    <input type="date" id="date" required />
+
+    <label for="notes">Additional Notes</label>
+    <textarea id="notes"></textarea>
+
+    <button type="submit">Submit Request</button>
+  </form>
+
+  <p id="formMessage" role="alert"></p>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Gifts4U</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
